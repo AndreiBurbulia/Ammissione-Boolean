@@ -1,0 +1,68 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+.container {
+  margin: auto;
+  margin-top: 5%;
+  width: 1000px;
+  padding: 3%;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.6);
+}
+
+/* h2 ::before{
+  content: ' \220E';
+}
+Provando questa soluzione non mi fa vedere i quadrati nel risultato se uso solo questo metodo
+mentre se metto il cubo in html mi fa vedere anche questo cubo */
+
+header > img {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+
+header > h1 {
+  font-size: 30px;
+  color: #7FFF00;
+  font-weight: 900;
+  text-align: center;
+}
+
+nav > div {
+  background-color: #7FFF00;
+  text-align: center;
+  padding: 1.5%;
+}
+
+.text{
+margin-top: 6%;
+line-height: 5px;
+}
+
+#rectangle{
+  width: 200px;
+  height: 20px;
+  background: yellow;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#rectangle2{
+  width: 400px;
+  height: 20px;
+  background: green;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#rectangle3{
+  width: 100px;
+  height: 20px;
+  background: red;
+  margin-top: 5px;
+  border-radius: 5px;
+}
